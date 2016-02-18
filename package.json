@@ -1,0 +1,26 @@
+{
+  "name": "reddit-comment-mixmax-app",
+  "version": "0.0.1",
+  "description": "Reddit Comment App for Mixmax",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siddharthseth/reddit-comment-link-resolver.git"
+  },
+  "author": "Siddharth Seth <siddharth.seth@berkeley.edu> (https://sidseth.me)",
+  "license": "Berkeley",
+  "bugs": {
+    "url": "https://berkeley.edu"
+  },
+  "homepage": "https://github.com/siddharthseth/reddit-comment-link-resolver",
+  "dependencies": {
+    "request": "^2.64.0",
+    "synchronize": "^0.9.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  }
+}
